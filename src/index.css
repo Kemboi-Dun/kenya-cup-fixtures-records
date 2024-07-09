@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: #ebebeb;
+}
+
+.fixtures-body-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.fixtures-wrapper {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+
+}
+
+.fixtures-header {
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.fixtures-header img {
+  height: 40px;
+  width: 50px;
+  object-fit: contain;
+}
+
+
+.fixtures-container {
+  width: 100%;
+  height: auto;
+  list-style: none;
+  margin: 2rem 0;
+  display: flex;
+  gap: 2rem 0.5rem;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+
+}
+
+.fixture-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: auto;
+  width: 45%;
+  padding: 1.5rem 0.5rem;
+  /* background: #cac9c9; */
+}
+.fixture-wrapper a{
+text-decoration: none;
+color: inherit;
+}
+.fixture-match-title {
+  background: #232525;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  color: #f4f4f4;
+}
+
+.fixture-month {
+  text-align: center;
+  font-weight: 800;
+  background: #dddbdb;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+}
+
+.fixture-date {
+  background: #16752a;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 1rem;
+  color: #f4f4f4;
+}
+
+.fixture-category {
+  background: #dddbdb;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.fixture-matches {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: #dddbdb;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  transition: all 0.4s ease;
+}
+.fixture-matches:hover{
+background: #035835;
+color: #f2f2f2;
+}
+.fixture-team{
+  width: 100%;
+  font-weight: 500;
+}
+.fixture-results-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.fixture-results {
+  background: #bd0d0d;
+  color: #f7f7f7;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+}
+
+.fixture-game-period {
+  background: #39884a;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+}
