@@ -18,7 +18,7 @@ pip install fastapi uvicorn requests beautifulsoup4
 
 ```
 ```
-fastapi dev Travel-diaries.py
+ fastapi dev Extract-Fixtures.py
 ```
 
 ## Frontend Setup
