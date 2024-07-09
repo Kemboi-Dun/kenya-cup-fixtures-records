@@ -1,3 +1,37 @@
+# Kenya Cup Fixtures
+
+> [!NOTE]
+> Data displayed are fetched from a different site.
+> [Data source page](https://www.kenyacup.co.ke/upcoming/kenyacup/)
+
+![Screenshot from 2024-07-09 18-00-47](https://github.com/Kemboi-Dun/kenya-cup-fixtures-records/assets/86706504/41ebc2fd-7c84-4534-9944-a54fe30078aa)
+
+## Backend Setup
+```
+git clone git@github.com:Kemboi-Dun/kenya-cup-fixtures-records.git
+```
+```
+cd kenya-cup-fixtures-backend
+```
+```
+pip install fastapi uvicorn requests beautifulsoup4
+
+```
+```
+fastapi dev Travel-diaries.py
+```
+
+## Frontend Setup
+```
+git clone git@github.com:Kemboi-Dun/kenya-cup-fixtures-records.git
+```
+```
+npm install
+```
+```
+npm run dev
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
